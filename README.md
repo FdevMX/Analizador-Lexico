@@ -1,8 +1,17 @@
 
 # Analizador Lexico
 
-Bienvenido a esta seccion, este proyecto de analizador léxico utiliza Python, Flask, CSS, HTML y JavaScript para analizar y clasificar palabras reservadas en un lenguaje de programación.
+<h1 align="left"> Analizador Lexico :mag:</h1>
+<h3 align="left">Bienvenido a esta seccion, este proyecto de analizador léxico utiliza Python, Flask, CSS, HTML y JavaScript para analizar y clasificar palabras reservadas en un lenguaje de programación.</h3>
 
+[![My Skills](https://skillicons.dev/icons?i=py,flask,js,html,css,vercel)](https://skillicons.dev)
+
+## Advertencia
+
+**IMPORTANTE:** Hay una parte del programa que actualmente no funciona como se esperaba. Por favor, tenga en cuenta lo siguiente antes de usar el programa:
+
+- La funcionalidad de importacion de datos por medio de archivos .txt, .csv y .json no está completamente implementada y no puede funcionar por ahora.
+- Se recomienda no utilizar esta parte del programa hasta que se solucione el problema.
 
 
 ## Funcionalidades
@@ -71,7 +80,7 @@ Sigue estos pasos para utilizar el analizador léxico:
      ```
      * Running on http://127.0.0.1:5050
      ```
-     
+
    - Abre el link presionando `Ctrl + Click` o copia la URL directamente hacia la barra de direcciones de tu navegador y das `Enter`.
 
    - Una vez que la página se haya cargado, encontrarás un campo de texto donde puedes pegar o escribir el código fuente o texto que deseas analizar.
