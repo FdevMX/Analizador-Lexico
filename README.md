@@ -71,7 +71,7 @@ Sigue estos pasos para utilizar el analizador léxico:
      ```
      * Running on http://127.0.0.1:5050
      ```
-   - Anota la URL y el puerto que se muestran en este mensaje, ya que pueden variar.
+     
    - Abre el link presionando `Ctrl + Click` o copia la URL directamente hacia la barra de direcciones de tu navegador y das `Enter`.
 
    - Una vez que la página se haya cargado, encontrarás un campo de texto donde puedes pegar o escribir el código fuente o texto que deseas analizar.
