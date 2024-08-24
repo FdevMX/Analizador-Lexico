@@ -62,6 +62,12 @@ Para iniciar la aplicación puede usar cualquiera de los siguientes comandos:
   flask run
 ```
 
+## Antes de continuar
+
+> [!WARNING]  
+> Hay una parte del programa que actualmente no funciona como se esperaba. Por favor, tenga en cuenta lo siguiente antes de usar el programa:
+> - La funcionalidad de importacion de datos por medio de archivos .txt, .csv y .json no está completamente implementada y no puede funcionar por ahora.
+> - Se recomienda no utilizar esta parte del programa hasta que se solucione el problema.
 
 
 ## Instrucciones para usar el analizador léxico
@@ -85,10 +91,6 @@ Sigue estos pasos para utilizar el analizador léxico:
 ¡Y eso es todo! Ahora puedes analizar código fuente utilizando este analizador léxico.
 
 
-> [!WARNING]  
-> Hay una parte del programa que actualmente no funciona como se esperaba. Por favor, tenga en cuenta lo siguiente antes de usar el programa:
-> - La funcionalidad de importacion de datos por medio de archivos .txt, .csv y .json no está completamente implementada y no puede funcionar por ahora.
-> - Se recomienda no utilizar esta parte del programa hasta que se solucione el problema.
 
 ## Screenshots
 
