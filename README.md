@@ -62,10 +62,6 @@ Para iniciar la aplicación puede usar cualquiera de los siguientes comandos:
   flask run
 ```
 
-> [!ADVERTENCIA]  
-> **IMPORTANTE:** Hay una parte del programa que actualmente no funciona como se esperaba. Por favor, tenga en cuenta lo siguiente antes de usar el programa:
-> - La funcionalidad de importacion de datos por medio de archivos .txt, .csv y .json no está completamente implementada y no puede funcionar por ahora.
-> - Se recomienda no utilizar esta parte del programa hasta que se solucione el problema.
 
 
 ## Instrucciones para usar el analizador léxico
@@ -87,6 +83,13 @@ Sigue estos pasos para utilizar el analizador léxico:
    - El analizador léxico procesará el contenido y clasificará las palabras reservadas en diferentes categorías. El resultado del análisis se mostrará en la pantalla, generalmente debajo del botón "Analizar".
 
 ¡Y eso es todo! Ahora puedes analizar código fuente utilizando este analizador léxico.
+
+
+> [!WARNING]  
+> Hay una parte del programa que actualmente no funciona como se esperaba. Por favor, tenga en cuenta lo siguiente antes de usar el programa:
+> - La funcionalidad de importacion de datos por medio de archivos .txt, .csv y .json no está completamente implementada y no puede funcionar por ahora.
+> - Se recomienda no utilizar esta parte del programa hasta que se solucione el problema.
+
 ## Screenshots
 
 ![App Screenshot](https://github.com/FdevMX/source/blob/54e6c5a83ff2505e66f5f1ec5f3836d0dbad1697/analizador_lexico/analizador_lexico_promt_init_layout.png)
