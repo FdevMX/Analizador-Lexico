@@ -1,6 +1,8 @@
 
 <h1 align="left"> Analizador Lexico :mag:</h1>
-Bienvenido a esta seccion, este proyecto de analizador léxico utiliza Python, Flask, CSS, HTML y JavaScript para analizar y clasificar palabras reservadas en un lenguaje de programación.
+Bienvenido a esta seccion, este proyecto de analizador léxico utiliza Python y Flask para analizar y clasificar palabras reservadas en un lenguaje de programación.
+
+###
 
 [![My Skills](https://skillicons.dev/icons?i=py,flask,js,html,css,vercel)](https://skillicons.dev)
 
