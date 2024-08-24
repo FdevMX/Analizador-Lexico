@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis Léxico</title>
+    <link rel="stylesheet" href="/views/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Analizador Léxico</h1>
+        <div class="card card-padding">
+            <div class="file-actions">
+                <label for="file-input" class="file-label">
+                    <img src="/assets/upload_icon.svg" alt="Upload Icon" class="upload-icon" />
+                    Seleccionar archivo
+                </label>
+                <input type="file" id="file-input" class="sr-only" />
+                <button id="remove-file" class="remove-button" style="display: none;">
+                    <img src="/assets/close_icon.svg" alt="Close Icon" class="close-icon" />
+                </button>
+            </div>
+            <div class="file-name" id="file-name">Sin archivos seleccionados</div>
+            <form id="code-form" method="post" enctype="multipart/form-data">
+                <textarea id="code-input" name="code" placeholder="Inserta tu código aquí"></textarea>
+                <div class="button-group">
+                    <button type="submit" class="btn-primary">Analizar</button>
+                    <button type="button" id="clean" class="btn-danger">Limpiar</button>
+                </div>
+            </form>
+        </div>
+        <div class="results">
+            <div class="card code-card">
+                <div class="card-header">
+                    <h2>Código ingresado</h2>
+                </div>
+                <div class="card-content">
+                    <pre id="analyzed-code">No se ha ingresado código</pre>
+                </div>
+            </div>
+            <div class="card tokens-card">
+                <div class="card-header tokens-header">
+                    <h3>Caracteres</h3>
+                    <h3>Símbolos</h3>
+                </div>
+                <div class="card-content tokens">
+                    <div class="token-column">
+                        <div id="characters"></div>
+                    </div>
+                    <div class="token-column">
+                        <div id="symbols"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/views/script.js"></script>
+</body>
+</html>
